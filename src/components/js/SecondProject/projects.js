@@ -42,7 +42,7 @@ const Projects = (props) => {
             <Octopus position={[-10,-3.5,-7]}  rotation={[0,-3.14/7,0]} event={clickDiv}/>
             <Jellyfish position={[7, 0, -5]} scale={[0.3, 0.3, 0.3]} layers={1}/>
             <EffectComposer>
-                <SelectiveBloom luminanceThreshold={0} intensity={1.5} light={lightRef}/>
+                <SelectiveBloom luminanceThreshold={0} intensity={1.5} lights={lightRef}/>
             </EffectComposer>
                 
                 
