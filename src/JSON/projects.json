@@ -1,5 +1,21 @@
 [
   {
+    "name": "portfolio",
+    "desc": [
+      "Portfolio written with React-Three-Fiber, showcasing my experiences and skills",
+      "Portfolio \u00e9crit avec React-Three-Fiber, pr\u00e9sentant mes exp\u00e9riences et comp\u00e9tences"
+    ],
+    "lang": [
+      "JavaScript",
+      "CSS",
+      "Python",
+      "HTML"
+    ],
+    "img": "portfolio.gif",
+    "date": "Mar, 2023",
+    "type": "Personal"
+  },
+  {
     "name": "Labyrinthe-2d-and-3d",
     "desc": [
       "Generator of maze and her solution with the Kruskal algorithm on Julia in 2D and 3D.",
