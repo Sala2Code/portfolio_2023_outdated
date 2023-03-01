@@ -1,0 +1,330 @@
+.spinnerDiv{
+    width: 8vh;
+    height: 8vh;
+    position: absolute;
+    top: 91.5%;
+    left: 50%;
+    border: 0.5vh solid transparent;
+    border-radius: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    animation: animSpinner 2.1s ease-in-out infinite;
+    animation-delay: 0.72s;
+    opacity:0.6;
+  }
+  
+  .spinnerDiv:before, .spinnerDiv:after {
+    content: '';
+    display: block;
+    position: absolute;
+    border: 1vh solid transparent;
+    border-radius: 50%;
+    box-sizing: border-box;
+    animation: animSpinner 2.1s ease-in-out infinite;
+  }
+  
+  .spinnerDiv:before {
+    top:    1vh;
+    left:   1vh;
+    right:  1vh;
+    bottom: 1vh;
+  }
+  
+.spinnerDiv:after {
+    top:    0.1vh;
+    left:   0.1vh;
+    right:  0.1vh;
+    bottom: 0.1vh;
+    animation-delay: 0.36s;
+}
+
+@keyframes animSpinner {
+from {
+    border-color: white;
+}
+to {
+    border-color: rgba(0,0,0, 0);
+}
+}
+  
+  
+
+.aboutDiv{
+    background-color : #000547;
+    width:50vh;
+    height: 50vh;
+    border-radius : 5%;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(calc(-50%), calc(-50%) );
+    transition : opacity 0.5s ease-in-out;
+}
+
+.visible{
+    opacity : 1;
+}
+.invisible{
+    opacity:0;
+    visibility:hidden;
+}
+
+.aboutDiv h2{
+    margin:0;
+    font-family: NewYork;
+    font-size: 5vh;
+}
+.aboutDiv span{
+    font-family: NewYork;
+    font-size: 2vh;
+    text-decoration: underline;
+}
+.titleAbout{
+    width:50vh;
+    height:45vh;
+    text-align:center;
+
+}
+.divSkill{
+    width:50vh;
+}
+.divSkill:nth-child(2){
+    height:17vh;
+}
+.divSkill:nth-child(3){
+    height:11vh;
+}
+.divSkill:nth-child(4){
+    height:11vh;
+}
+
+.moduleSkill{
+    display: flex;
+    width:50vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top:1vh;
+}
+.containerSkill{ 
+    width:5.7vh;
+    height:5.7vh;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    font-size:2.7vh;
+
+    background-color:var(--colorDiv);
+    margin:0.5vh 1vh;
+    border-radius: 10%;
+    box-shadow: 0 5px 5px black;
+    transition:transform 0.2s ease-in-out;
+}
+.moduleSkill img {
+    width:5.7vh;
+    height:5.7vh;
+}
+
+.containerSkill:hover{
+    transform:scale(1.1);
+}
+.containerSkill:hover .infoSkill{
+    opacity:1;
+    pointer-events: auto;
+}
+
+.infoSkill{
+    position: absolute;
+    top:-12vh;
+    background-color:var(--colorDiv);
+    width:21vh;
+    height:10vh;
+    border-radius:10%;
+    box-shadow: 0 5px 5px black;
+    opacity:0;
+    transition:opacity 0.3s ease-in-out;
+    pointer-events: none;
+}
+.infoSkill::after{
+    content:"";
+    border-left:5vh solid transparent;
+    border-right:5vh solid transparent;
+    border-top: 2vh solid var(--colorDiv);
+    position:absolute;
+    left:5.5vh;
+    bottom:-1.8vh;
+}
+.textCenter{
+    height:10vh;
+    overflow-y : scroll;
+    scrollbar-width : thin;
+}
+
+.iconCenter{
+    height:10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;  
+}   
+
+.infoSkillp, .infoSkill span{
+    font-size:2.5vh;
+    font-family : NewYork;
+    margin:1vh;
+    transition : letter-spacing 0.2s ease-in;
+}
+.infoSkillp:hover{
+    letter-spacing:0.2vh;
+}
+
+.linkSkill{
+    text-decoration:none;
+    color:white;
+}
+
+.divCurriculum{
+    width:50vh;
+}
+.divCurriculum:nth-child(2){
+    height:9vh;
+}
+.divCurriculum:nth-child(3){
+    height:20vh;
+}
+.divCurriculum:nth-child(4){
+    height:8vh;
+}
+
+
+.inlineCur{
+    height:6vh; 
+    display:grid;
+    margin : 1.5vh 0.5vh;
+    background-color : var(--colorDiv);
+    border-radius : 5%;
+    box-shadow : 0 5px 5px black;
+    grid-template-columns : 85% 15%;
+    grid-template-rows : 50% 50%;
+    grid-template-areas:
+    "title load"
+    "desc load";
+}
+#titleStudy{
+    grid-area : title;
+}
+#speStudy{
+    grid-area : desc;
+}
+#loadStudy{
+    grid-area : load;
+    display: flex;
+    justify-content:center;
+}
+.studyTitle{
+    font-size:1.7vh;
+    margin:0;
+}
+.studySpan{
+    display:inline-block;
+    font-size:1.7vh;
+    font-family:NewYork;
+    margin:0 0.2vh;
+}
+
+.progressCircle[role="progressbar"]{
+    width:6vh;
+    height:6vh;
+    border-radius: 50%;
+    display:flex;
+    justify-content : center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    background: 
+    radial-gradient(closest-side, var(--colorDiv) 80%, transparent 0 100%, var(--colorDiv) 0),
+    conic-gradient(#74ff64 calc(var(--value) * 1%), #2e2e2e 0);
+    box-shadow: 0 5px 5px black;
+    font-family: NewYork;
+    
+    font-size: 1.6vh;
+    color: white;
+}
+.progressCircle[role="progressbar"]::before {
+    counter-reset: percentage var(--value);
+    content: counter(percentage) '%';
+  }
+
+
+.inlineOthers{
+    height:6vh; 
+    margin : 1vh 0.5vh;
+    background-color : var(--colorDiv);
+    border-radius : 5%;
+    box-shadow : 0 5px 5px black;
+}
+.inlineOthers p{
+    font-size:1.9vh;
+    font-family:NewYork;
+    margin:0.5vh;
+}
+.infoCurp:nth-child(2){
+    text-decoration:none;
+    color:white;
+    transition : letter-spacing 0.2s ease-in;
+}
+.infoCurp:hover{
+    letter-spacing:0.1vh;
+}
+
+#aboutme{
+    width:20vw;
+    height:100%;
+    text-align:center;
+}
+.textAbout{
+    margin:1.5vh 1vh;
+    font-size:2vh;
+    font-family:NewYork;
+    text-align:center;
+}
+
+#parentBubble{
+    position:absolute;
+    top:70%;
+    left: 7%;
+    width:30vh;
+    height:70vh;
+}
+.bubble{
+    width: 20vh;
+    height:20vh;
+    margin : 3vh auto;
+    border-radius:50%;
+    transition: transform 2s ease;
+
+    display:flex;
+    justify-content : center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.imgBubble{
+    width:100%;
+    height:100%;
+    position:absolute;
+    transition: transform 0.2s ease-in-out;
+}
+
+.imgBubble:hover{
+    transform:scale(1.05);
+}
+.svgBubble{
+    width:70%;
+    height:70%;
+}
+
+.svgBubble:hover .imgBubble{
+    transform:scale(1.05);
+}

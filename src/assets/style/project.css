@@ -1,0 +1,177 @@
+:root{
+    --colorDiv : #111764;
+    --widthButton : 9vh;
+    --translateButton : 13vh;
+    --colorInfo : #00a6dd;
+
+}
+
+.containerProj{
+    display:grid;
+    grid-template-columns : 50% 50% ;
+    grid-template-rows : 25% 45% 30%;
+    grid-template-areas:
+    "title img"
+    "description img"
+    "link language";
+
+    padding:2vh;
+} 
+
+#titleProj{
+    grid-area: title;
+
+    font-family: "NewYork";
+    text-align:center;
+    font-size:3.7vh;
+    margin : auto;
+    letter-spacing : 2px;
+    
+    display: -webkit-box;
+    -webkit-line-clamp : 2;
+    -webkit-box-orient: vertical;
+    max-height:100%;
+    overflow:hidden;
+
+    /* color : #ffdfcc; */
+    text-transform : uppercase;
+    text-shadow : 2px 2px 2px black;
+
+
+}
+
+#descProj{
+    grid-area: description;
+
+    font-family: "NewYork";
+    text-indent : 2vw;
+    font-size:3vh;
+ 
+    max-height:100%; 
+    margin : 0 auto;
+    background:var(--colorDiv);
+    border-radius:2vh;
+    box-shadow : 0 5px 5px black;
+
+    display: -webkit-box;
+    -webkit-line-clamp : 6;
+    -webkit-box-orient: vertical;
+    max-height:100%;
+    overflow:hidden;
+}
+
+#imgProj{
+    grid-area: img;
+    margin:1vw;
+}
+#imgProj img{
+    border-radius :1vh;
+    box-shadow : 0 5px 5px black;
+}
+
+
+
+
+
+
+#linkProj{
+    grid-area : link;
+    position:relative;
+}
+#linkProj div{
+    position:absolute;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    margin : auto;
+    width:var(--widthButton);
+    height:var(--widthButton);
+}
+
+#LogoGithub{
+    padding:0.15vh;
+    border-radius:100%;
+    background:white;
+    box-shadow : 0 5px 5px black;
+    z-index:1;
+    transition : transform 0.3s ease-in;
+}
+
+#linkProj:hover #LogoGithub{
+    transform: translateX(calc(-1*var(--translateButton)));
+}
+#linkProj:hover #ButtonGithub{
+    width:calc(var(--translateButton)*2 + var(--widthButton));
+}
+#linkProj:hover #ButtonGithub a{
+    opacity:1
+}
+
+#ButtonGithub{
+    background: var(--colorDiv);
+    border-radius : var(--widthButton);
+    transition : width 0.3s ease-in;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#ButtonGithub a{
+    font-size:3vh;
+    font-family : June;
+    margin: auto 1vh;
+    color:var(--colorInfo);
+    text-decoration: none;
+
+    white-space : nowrap;
+    text-overflow : ellipsis;
+    overflow: hidden;
+
+
+    opacity:0;
+    transition: opacity 0.3s ease-in;
+    
+}
+
+
+#langProj{
+    grid-area : language;
+    font-family: "NewYork";
+}
+
+#infoProj{
+    position:relative;
+    color:var(--colorInfo);
+    font-size:3vh;
+    margin: 0 2vh;
+}
+#infoProj span{
+    position:absolute;
+}
+
+#infoProj :nth-child(2){
+    right:0;
+    text-decoration:underline;
+}
+
+#listLang{
+    margin-top:5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.divLang{
+    background:var(--colorDiv);
+    margin:0.5vh;
+    width:10vh;
+    height:4vh;
+    border-radius : 4vh;
+    box-shadow : 2px 2px black;
+
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    font-size:2.7vh;
+}

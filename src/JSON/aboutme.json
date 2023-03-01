@@ -1,0 +1,157 @@
+
+{
+    "skill": {
+        "lang":[
+            {
+                "name":"Python",
+                "lib":["Numpy","Tensorflow","Panda","PyGame"],
+                "url" : "https://www.python.org/"
+            },
+            {
+                "name":"Cpp",
+                "lib":["OpenGL","SFML","glm"],
+                "url" : "https://isocpp.org/"
+            },
+            {
+                "name":"C",
+                "lib":null,
+                "url" : "https://devdocs.io/c/"
+            },
+            {
+                "name":"GLSL",
+                "lib":null,
+                "url" : "https://docs.gl/" 
+            },
+            {
+                "name":"Java",
+                "lib":null,
+                "url" : "https://www.java.com"
+            },
+            {
+                "name":"Julia",
+                "lib":null,
+                "url" : "https://julialang.org/" 
+            },
+            {
+                "name":"Lean",
+                "lib":null,
+                "url" : "https://leanprover.github.io/documentation/"
+            },
+            {
+                "name":"HTML",
+                "lib":null,
+                "url" : "https://developer.mozilla.org/fr/docs/Web/HTML"
+            },
+            {
+                "name":"JavaScript",
+                "lib":["ReactJS","ThreeJS"],
+                "url" : "https://www.javascript.com/"
+            },
+            {
+                "name":"CSS",
+                "lib":null,
+                "url" : "https://devdocs.io/css/"
+            },
+            {
+                "name":"PHP",
+                "lib":null,
+                "url" : "https://www.php.net/docs.php"
+            },
+            {
+                "name":"SQL",
+                "lib":null,
+                "url": "https://dev.mysql.com/doc/"
+            }
+        ],
+        "software":[
+            {
+                "name":"SonyVegasPro",
+                "url":"https://www.youtube.com/watch?v=89Xutf8XqmE",
+                "link" : "https://www.vegascreativesoftware.com/fr/vegas-pro/"
+            },
+            {
+                "name":"AfterEffect",
+                "url":"https://www.youtube.com/watch?v=89Xutf8XqmE",
+                "link" : "https://www.adobe.com/fr/products/aftereffects.html"
+            },
+            {
+                "name":"Blender",
+                "url":null,
+                "link" : "https://www.blender.org/"
+            },
+            {   
+                "name":"Excel",
+                "url":null,
+                "link": "https://www.microsoft.com/fr-fr/microsoft-365/excel"
+            }
+        ],
+        "passion":[
+            {
+                "url" : "http://www.echecs.asso.fr/FicheJoueur.aspx?Id=1093947",
+                "val" : 1363
+            },
+            {
+                "url":"https://www.mathraining.be/users/13700",
+                "val" : "7.5%"
+            },
+            {
+                "url" : null,
+                "val" : "Soon..."
+            }
+        ]
+    },
+    "curriculum":{
+        "professional":{
+
+        },
+        "studies":[
+            {
+                "fr":{
+                    "name":"Université Paul-Sabatier, Parcours Spéciaux (double licence)",
+                    "spe":"Maths / Physique",
+                    "finish_p":17,
+                    "mention":null
+                },
+                "en":{
+                    "name":"Paul Sabatier University, Special Pathways (double degree)",
+                    "spe":"Mathematics / Physics",
+                    "finish_p":17,
+                    "mention":null
+                }
+            },
+            {
+                "fr":{
+                    "name":"Lycée, Baccalauréat Général",
+                    "spe":"Maths/Physique/Informatique",
+                    "finish_p":100,
+                    "mention":"Bien"
+                },
+                "en":{
+                    "name":"High Scool, Genral Bacalaureate",
+                    "spe":"Maths/Physics/CS",
+                    "finish_p":100,
+                    "mention":"High honours"
+                }
+            }
+        ],
+        "others":[
+            {
+                "fr":{
+                    "name":"Olympiades de mathématique, 2021",
+                    "text":"Copie remarquée par le jury",
+                    "url": "https://pedagogie.ac-montpellier.fr/olympiades-de-mathematique-2021-le-palmares"
+                },
+                "en":{
+                    "name":"Mathematics Olmypiads, 2021",
+                    "text":"Copy remarked upon by the jury",
+                    "url": "https://pedagogie.ac-montpellier.fr/olympiades-de-mathematique-2021-le-palmares"
+                }
+            }
+        ]
+    },
+    "desc":{
+        "fr": "Bonjour,\n Je suis un étudiant de 18 ans en double licence en Mathématiques/Physiques dû à l'attrait pour les sciences fondamentales.\n  Je code également des projets personnels pour développer mes compétences en développement, et j'aimerais travailler dans le domaine de l'intelligence artificielle. .\nBien que je manque d'expérience professionnelle, je suis convaincu que mes études et mes projets personnels me permettront d'assimiler les compétences nécessaires pour réussir.\n Je suis ouvert à toute proposition de projet et déterminé à acquérir davantage d'expérience professionnelle. \nMerci, bonne journée !",
+        "en": "Hello,\n I am a 18 years old student in a double degree in Mathematics/Physics due to my passion for fundamental sciences.\n I also code personal projects to develop my development skills, and I would like to work in the field of artificial intelligence.\n Although I lack professional experience, I am convinced that my studies and my personal projects will allow me to assimilate the necessary skills to succeed.\n I am open to any project proposal and determined to acquire more professional experience.\n Thank you, have a nice day !"
+    }
+}
+

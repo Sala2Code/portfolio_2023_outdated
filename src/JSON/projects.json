@@ -1,0 +1,96 @@
+[
+  {
+    "name": "Labyrinthe-2d-and-3d",
+    "desc": [
+      "Kruskal algorithm with Julia in 2D and 3D.",
+      "Algorithme de Kruskal avec Julia en 2D et 3D."
+    ],
+    "lang": [
+      "Julia"
+    ],
+    "img": "Labyrinthe-2d-and-3d.gif",
+    "date": "Jan, 2023",
+    "type": "Personal"
+  },
+  {
+    "name": "MyRecipes",
+    "desc": [
+      "Android application to write your great recipes !",
+      "Application Android pour \u00e9crire vos bonnes recettes !"
+    ],
+    "lang": [
+      "Java"
+    ],
+    "img": "MyRecipes.png",
+    "date": "Jan, 2023",
+    "type": "Personal"
+  },
+  {
+    "name": "boids",
+    "desc": [
+      "Boids program to simulate the flocking behavior (with a predator)",
+      "Programme Boids pour simuler le comportement de flocage (avec un pr\u00e9dateur)"
+    ],
+    "lang": [
+      "C",
+      "C++",
+      "GLSL"
+    ],
+    "img": "boids.gif",
+    "date": "Nov, 2022",
+    "type": "Personal"
+  },
+  {
+    "name": "RetroRoad",
+    "desc": [
+      "A simple road in a retro world",
+      "Une route simple dans un monde r\u00e9tro"
+    ],
+    "lang": [
+      "C++",
+      "C"
+    ],
+    "img": "RetroRoad.gif",
+    "date": "Nov, 2022",
+    "type": "Personal"
+  },
+  {
+    "name": "IA_Car_Racing",
+    "desc": [
+      "Neural network learn to drive cars on infinite road (Python - NEAT)",
+      "Le r\u00e9seau de neurones apprend \u00e0 conduire des voitures sur une route infinie (Python - NEAT)"
+    ],
+    "lang": [
+      "Python"
+    ],
+    "img": "IA_Car_Racing.gif",
+    "date": "Aug, 2022",
+    "type": "Personal"
+  },
+  {
+    "name": "Soft-Body",
+    "desc": [
+      "SFML Soft Body. You can draw your own structure easily, read the readme.",
+      "Corps souple SFML. Vous pouvez dessiner votre propre structure facilement, lisez le readme."
+    ],
+    "lang": [
+      "C++"
+    ],
+    "img": "Soft-Body.gif",
+    "date": "Jul, 2022",
+    "type": "Personal"
+  },
+  {
+    "name": "Raycasting",
+    "desc": [
+      "SFML Raycasting textured with minimap.",
+      "SFML Raycasting textur\u00e9 avec minimap."
+    ],
+    "lang": [
+      "C++"
+    ],
+    "img": "Raycasting.gif",
+    "date": "Jul, 2022",
+    "type": "Personal"
+  }
+]
