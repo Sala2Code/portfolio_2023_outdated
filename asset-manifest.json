@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.26a86f64.css",
-    "main.js": "/portfolio/static/js/main.d287be00.js",
+    "main.js": "/portfolio/static/js/main.40e652bc.js",
     "static/media/RetroRoad.gif": "/portfolio/static/media/RetroRoad.513f72fefef5ed2acfaa.gif",
     "static/media/Raycasting.gif": "/portfolio/static/media/Raycasting.e75c34a1c7d22344c051.gif",
     "static/media/boids.gif": "/portfolio/static/media/boids.192d606e69ce736df2ad.gif",
     "static/media/IA_Car_Racing.gif": "/portfolio/static/media/IA_Car_Racing.796d1cc74ca5f2d84c0d.gif",
     "static/media/Soft-Body.gif": "/portfolio/static/media/Soft-Body.8d340a852b98fdd3182e.gif",
+    "static/media/portfolio.gif": "/portfolio/static/media/portfolio.2d928e3c579197be3f4f.gif",
     "static/media/Labyrinthe-2d-and-3d.gif": "/portfolio/static/media/Labyrinthe-2d-and-3d.88ae164cd440ffae9b64.gif",
     "static/media/NewYork.otf": "/portfolio/static/media/NewYork.e934fc10a53877d377d0.otf",
     "static/media/June.ttf": "/portfolio/static/media/June.8e6174a98ef6b4dd1543.ttf",
@@ -36,10 +37,10 @@
     "static/media/GLSL.svg": "/portfolio/static/media/GLSL.b182e53e1832a670314cf579564e00bd.svg",
     "static/media/SQL.svg": "/portfolio/static/media/SQL.9861fef2240e8b1293f8008ae8b0c788.svg",
     "main.26a86f64.css.map": "/portfolio/static/css/main.26a86f64.css.map",
-    "main.d287be00.js.map": "/portfolio/static/js/main.d287be00.js.map"
+    "main.40e652bc.js.map": "/portfolio/static/js/main.40e652bc.js.map"
   },
   "entrypoints": [
     "static/css/main.26a86f64.css",
-    "static/js/main.d287be00.js"
+    "static/js/main.40e652bc.js"
   ]
 }
