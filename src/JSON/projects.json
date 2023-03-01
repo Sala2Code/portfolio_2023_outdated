@@ -1,9 +1,25 @@
 [
   {
+    "name": "portfolio",
+    "desc": [
+      "Portfolio written with React-Three-Fiber, showcasing my experiences and skills",
+      "Portfolio \u00e9crit avec React-Three-Fiber, pr\u00e9sentant mes exp\u00e9riences et comp\u00e9tences"
+    ],
+    "lang": [
+      "JavaScript",
+      "CSS",
+      "Python",
+      "HTML"
+    ],
+    "img": "portfolio.gif",
+    "date": "Mar, 2023",
+    "type": "Personal"
+  },
+  {
     "name": "Labyrinthe-2d-and-3d",
     "desc": [
-      "Kruskal algorithm with Julia in 2D and 3D.",
-      "Algorithme de Kruskal avec Julia en 2D et 3D."
+      "Generator of maze and her solution with the Kruskal algorithm on Julia in 2D and 3D.",
+      "G\u00e9n\u00e9rateur de labyrinthe et sa solution avec l'algorithme de Kruskal sur Julia en 2D et 3D."
     ],
     "lang": [
       "Julia"
@@ -43,8 +59,8 @@
   {
     "name": "RetroRoad",
     "desc": [
-      "A simple road in a retro world",
-      "Une route simple dans un monde r\u00e9tro"
+      "A simple road in a retro world face to a beautiful sky, made with OpenGL.",
+      "Une route simple dans un monde r\u00e9tro face \u00e0 un beau ciel, r\u00e9alis\u00e9e avec OpenGL."
     ],
     "lang": [
       "C++",
@@ -70,8 +86,8 @@
   {
     "name": "Soft-Body",
     "desc": [
-      "SFML Soft Body. You can draw your own structure easily, read the readme.",
-      "Corps souple SFML. Vous pouvez dessiner votre propre structure facilement, lisez le readme."
+      "SFML Soft Body. You can draw your own structure easily. There is too a model with another feature : the pressure.",
+      "Corps souple SFML. Vous pouvez dessiner votre propre structure facilement. Il existe aussi un mod\u00e8le avec une autre caract\u00e9ristique : la pression."
     ],
     "lang": [
       "C++"
