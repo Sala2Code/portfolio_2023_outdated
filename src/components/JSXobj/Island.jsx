@@ -12,10 +12,10 @@ export default function Island(props) {
   return (
     <group ref={group} {...props} dispose={null}>
       <group name="Scene">
-        <group name="Empty" position={[0.02, -0.22, -2.42]} scale={0.12} />
+        <group name="Empty" position={[0, -0.97, 0]} scale={3.82} />
         <group name="plant017" position={[-0.76, 1.14, -18.82]} rotation={[0.16, 0.87, -1.57]} scale={1.14} />
         <mesh name="Plane" castShadow  geometry={nodes.Plane.geometry} material={materials['Material.050']} position={[0.05, -4.27, -0.01]} rotation={[Math.PI / 2, 0, 0]} scale={[-21.66, -6.65, -2.46]} />
-        <mesh name="Plane004" receiveShadow geometry={nodes.Plane004.geometry} material={materials['Material.002']} position={[0.05, -1.8, -13.01]} rotation={[-Math.PI, 0, -Math.PI]} scale={[69.51, 12.96, 17.7]} />
+        <mesh name="Plane004" castShadow  geometry={nodes.Plane004.geometry} material={materials['Material.002']} position={[0.05, -1.8, -13.01]} rotation={[-Math.PI, 0, -Math.PI]} scale={[69.51, 12.96, 17.7]} />
         <mesh name="coque" castShadow  geometry={nodes.coque.geometry} material={materials.woodBoat} position={[0.84, -0.91, -16.08]} rotation={[-2.9, -1.23, -Math.PI]} scale={0.95} />
         <mesh name="rame001" castShadow  geometry={nodes.rame001.geometry} material={materials.woodPalm} position={[1.26, -0.34, -16.56]} rotation={[0.27, 0.1, 1.66]} scale={[0.05, 0.83, 0.04]} />
         <mesh name="rame" castShadow  geometry={nodes.rame.geometry} material={materials.woodPalm} position={[0.93, -0.65, -15.31]} rotation={[0.28, -0.62, 1.67]} scale={[0.05, 0.83, 0.04]} />
@@ -338,7 +338,7 @@ export default function Island(props) {
         <mesh name="plant012" castShadow  geometry={nodes.plant012.geometry} material={materials['.019']} position={[-0.78, 2.35, -18.57]} rotation={[0.19, -0.05, 0.09]} scale={0.17} />
         <mesh name="plant013" castShadow  geometry={nodes.plant013.geometry} material={materials['.019']} position={[-0.78, 2.35, -18.57]} rotation={[-2.6, 0.76, 2.91]} scale={0.17} />
         <mesh name="plant015" castShadow  geometry={nodes.plant015.geometry} material={materials['.019']} position={[-0.78, 2.35, -18.57]} rotation={[-2.23, -0.67, -2.66]} scale={0.17} />
-        <mesh name="plant016" castShadow  geometry={nodes.plant016.geometry} material={materials['.019']} position={[-0.78, 2.35, -18.57]} rotation={[-0.25, -0.55, -0.33]} scale={0.17} />
+        <mesh name="Object" castShadow  geometry={nodes.Object.geometry} material={materials['.019']} position={[-0.78, 2.35, -18.57]} rotation={[-0.25, -0.55, -0.33]} scale={0.17} />
         <mesh name="plant019" castShadow  geometry={nodes.plant019.geometry} material={materials['Material.021']} position={[-0.76, 2.21, -18.65]} rotation={[0.16, 0.87, 0]} scale={0.13} />
         <mesh name="plant020" castShadow  geometry={nodes.plant020.geometry} material={materials['woodPalm.047']} position={[-0.76, -1.27, -19.21]} rotation={[0.16, 1.49, 0]} scale={0.17} />
         <mesh name="plant021" castShadow  geometry={nodes.plant021.geometry} material={materials['.020']} position={[1.82, 3.18, -18.53]} rotation={[-0.25, -0.55, -0.33]} scale={0.27} />
@@ -352,7 +352,7 @@ export default function Island(props) {
         <mesh name="plant029" castShadow  geometry={nodes.plant029.geometry} material={materials['.020']} position={[1.81, 3.18, -18.41]} rotation={[2.81, -0.85, 2.68]} scale={0.27} />
         <mesh name="plant031" castShadow  geometry={nodes.plant031.geometry} material={materials['.020']} position={[1.82, 3.18, -18.53]} rotation={[-2.7, 1.08, 3.1]} scale={0.27} />
         <mesh name="plant032" castShadow  geometry={nodes.plant032.geometry} material={materials['.020']} position={[1.79, 3.21, -18.52]} rotation={[0.96, -0.63, 0.63]} scale={0.27} />
-        <mesh name="Plane_004" castShadow  geometry={nodes.Plane_004.geometry} material={materials['Material.050']} morphTargetDictionary={nodes.Plane_004.morphTargetDictionary} morphTargetInfluences={nodes.Plane_004.morphTargetInfluences} position={[2.03, -0.33, 2.33]} scale={[0.96, 0.79, 0.96]} />
+        <mesh name="Plane005" castShadow  geometry={nodes.Plane005.geometry} material={materials['Material.050']} morphTargetDictionary={nodes.Plane005.morphTargetDictionary} morphTargetInfluences={nodes.Plane005.morphTargetInfluences} position={[0, -1.4, -4]} scale={3.82} />
       </group>
     </group>
   )
