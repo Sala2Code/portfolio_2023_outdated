@@ -10,15 +10,8 @@ import json
 listProj = []
 translator = Translator()
 
-url="https://github.com/Sala2Code?tab=repositories"
-response = requests.get(url)
-soup = bs(response.content, "lxml")
-
-i=0
-for info in soup.find_all("h3", class_="wb-break-all"):
-# info = soup.find("h3", class_="wb-break-all")
-
-    title = info.a.text.replace(" ", "").replace("\n", "")
+lProject = ["portfolio", "Labyrinthe-2d-and-3d", "MyRecipes", "boids", "RetroRoad", "IA_Car_Racing", "Soft-Body", "Raycasting"]
+for i,title in enumerate(lProject):
     if title != "Sala2Code":
         urlProject="https://github.com/Sala2Code/"+title
 
