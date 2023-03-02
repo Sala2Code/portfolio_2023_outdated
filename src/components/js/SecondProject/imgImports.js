@@ -2,7 +2,7 @@
 // See this link : https://github.com/oscadev/react-import-folder
 
 import _boids from '../../../assets/img/projects/boids.gif'
-import _portfolio from '../../../assets/img/projects/portfolio.gif'
+import _portfolio from '../../../assets/img/projects/portfolio.png'
 import _IA_Car_Racing from '../../../assets/img/projects/IA_Car_Racing.gif'
 import _Labyrinthe_2d_and_3d from '../../../assets/img/projects/Labyrinthe-2d-and-3d.gif'
 import _MyRecipes from '../../../assets/img/projects/MyRecipes.png'
