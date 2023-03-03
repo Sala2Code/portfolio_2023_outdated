@@ -1,6 +1,6 @@
 @font-face  {
   font-family:"NewYork";
-  src:url("../font/NewYork.ttf");
+  src:url("../font/NewYork.ttf"), url("https://fonts.googleapis.com/css?family=Sofia");
 
   font-family:"June";
   src:url("../font/June.ttf");
