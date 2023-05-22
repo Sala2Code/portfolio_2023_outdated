@@ -1,9 +1,24 @@
 [
   {
+    "name": "Interactive-Function-Approximation",
+    "desc": [
+      "Interactive approximation of continuous functions using Remes, Bernstein, and Fourier methods",
+      "Approximation interactive de fonctions continues \u00e0 l'aide des m\u00e9thodes de Remes, Bernstein et Fourier"
+    ],
+    "lang": [
+      "Python",
+      "Julia",
+      "Lean"
+    ],
+    "img": "Interactive-Function-Approximation.png",
+    "date": "May 2023",
+    "type": "Scholar"
+  },
+  {
     "name": "portfolio",
     "desc": [
-      "Portfolio written with React-Three-Fiber, showcasing my experiences and skills",
-      "Portfolio \u00e9crit avec React-Three-Fiber, pr\u00e9sentant mes exp\u00e9riences et comp\u00e9tences"
+      "This is my own portfolio, where I showcase my skills and experiences. It mades with React-Three-Fiber.",
+      "Ceci est mon propre portfolio, o\u00f9 je pr\u00e9sente mes comp\u00e9tences et mes exp\u00e9riences. Il est fabriqu\u00e9 avec React-Three-Fiber."
     ],
     "lang": [
       "JavaScript",
