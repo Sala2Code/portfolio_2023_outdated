@@ -1,5 +1,5 @@
 
-This is my own <a href="https://sala2code.github.io/portfolio/">portfolio</a>, where I showcase my skills and experiences. It mades with React-Three-Fiber.
+This is my first <a href="https://sala2code.github.io/portfolio_2023_outdated/">portfolio</a>, where I showcase my skills and experiences. It mades with React-Three-Fiber. Currently outdated (06-2023), my new portfolio is <a href="https://sala2code.github.io/portfolio/">here</a>.
 
 ![Portfolio](https://user-images.githubusercontent.com/109032171/222574278-55a7a61d-2e0a-47df-92d8-5010a668f488.gif)
 
